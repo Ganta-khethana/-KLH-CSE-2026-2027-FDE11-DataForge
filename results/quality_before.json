@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-09-26T05:28:59.838764+00:00",
+  "scores": [
+    {
+      "source_name": "production",
+      "stage": "raw",
+      "row_count": 3120,
+      "completeness": 98.3467,
+      "uniqueness": 96.1538,
+      "validity": 71.1138,
+      "consistency": 82.2954,
+      "timeliness": 95.609,
+      "overall_score": 87.6159
+    },
+    {
+      "source_name": "sensors",
+      "stage": "raw",
+      "row_count": 5175,
+      "completeness": 95.5725,
+      "uniqueness": 96.6184,
+      "validity": 87.6957,
+      "consistency": 100.0,
+      "timeliness": 94.57,
+      "overall_score": 94.5977
+    },
+    {
+      "source_name": "inventory",
+      "stage": "raw",
+      "row_count": 1545,
+      "completeness": 98.4836,
+      "uniqueness": 93.5275,
+      "validity": 82.9989,
+      "consistency": 74.1996,
+      "timeliness": 95.1456,
+      "overall_score": 88.4306
+    },
+    {
+      "source_name": "maintenance",
+      "stage": "raw",
+      "row_count": 832,
+      "completeness": 97.2699,
+      "uniqueness": 96.1538,
+      "validity": 79.0865,
+      "consistency": 92.8155,
+      "timeliness": 95.7933,
+      "overall_score": 91.4623
+    },
+    {
+      "source_name": "quality",
+      "stage": "raw",
+      "row_count": 1242,
+      "completeness": 98.9712,
+      "uniqueness": 96.6184,
+      "validity": 71.1755,
+      "consistency": 95.8553,
+      "timeliness": 95.8937,
+      "overall_score": 90.6208
+    }
+  ]
+}
