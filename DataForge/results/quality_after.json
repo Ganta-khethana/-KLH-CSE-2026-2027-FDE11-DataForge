@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-09-26T05:28:59.838764+00:00",
+  "scores": [
+    {
+      "source_name": "production",
+      "stage": "clean",
+      "row_count": 2857,
+      "completeness": 100.0,
+      "uniqueness": 100.0,
+      "validity": 100.0,
+      "consistency": 100.0,
+      "timeliness": 100.0,
+      "overall_score": 100.0
+    },
+    {
+      "source_name": "sensors",
+      "stage": "clean",
+      "row_count": 4188,
+      "completeness": 100.0,
+      "uniqueness": 100.0,
+      "validity": 100.0,
+      "consistency": 100.0,
+      "timeliness": 100.0,
+      "overall_score": 100.0
+    },
+    {
+      "source_name": "inventory",
+      "stage": "clean",
+      "row_count": 1397,
+      "completeness": 100.0,
+      "uniqueness": 100.0,
+      "validity": 100.0,
+      "consistency": 100.0,
+      "timeliness": 100.0,
+      "overall_score": 100.0
+    },
+    {
+      "source_name": "maintenance",
+      "stage": "clean",
+      "row_count": 772,
+      "completeness": 100.0,
+      "uniqueness": 100.0,
+      "validity": 100.0,
+      "consistency": 100.0,
+      "timeliness": 100.0,
+      "overall_score": 100.0
+    },
+    {
+      "source_name": "quality",
+      "stage": "clean",
+      "row_count": 1172,
+      "completeness": 100.0,
+      "uniqueness": 100.0,
+      "validity": 100.0,
+      "consistency": 100.0,
+      "timeliness": 100.0,
+      "overall_score": 100.0
+    }
+  ]
+}

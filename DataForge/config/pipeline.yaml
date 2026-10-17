@@ -1,0 +1,39 @@
+project:
+  name: DataForge
+  title: Intelligent ETL & Data Quality Platform for Manufacturing
+  course: Fundamentals of Data Engineering
+  course_code: 24DEA3101R
+  team: 11
+  section: 7
+  plant_id: PLANT-HYD-01
+
+paths:
+  raw_dir: data/raw
+  staging_dir: data/staging
+  processed_dir: data/processed
+  quarantine_dir: data/processed/quarantine
+  results_dir: results
+  reports_dir: reports
+
+sources:
+  production: production.csv
+  sensors: sensors.csv
+  inventory: inventory.csv
+  maintenance: maintenance.csv
+  quality: quality_inspection.csv
+
+kafka:
+  topics:
+    production: manufacturing.production
+    sensors: manufacturing.sensors
+    inventory: manufacturing.inventory
+    maintenance: manufacturing.maintenance
+    quality: manufacturing.quality
+
+quality:
+  weights:
+    completeness: 0.25
+    uniqueness: 0.20
+    validity: 0.25
+    consistency: 0.20
+    timeliness: 0.10
